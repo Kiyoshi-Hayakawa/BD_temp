@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/e2a301f8-14ce-41c0-9113-d783adb4c492/resourceGroups/BDtemp-rg/providers/Microsoft.Web/sites/BDtemp",
+    "appService.deploySubpath": "."
+}
