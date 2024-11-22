@@ -1,3 +1,5 @@
+#gitでバージョン管理
+
 from flask import Flask, request, redirect
 from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
