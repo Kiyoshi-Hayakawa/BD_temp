@@ -1,4 +1,5 @@
 #gitでバージョン管理
+#Pythonのバージョンは，3.9.13
 
 from flask import Flask, request, redirect
 from flask import render_template
