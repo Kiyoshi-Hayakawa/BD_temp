@@ -1,0 +1,11 @@
+{% extends "base.html" %} <!--追記 -->
+{% block content %}　<!--追記 -->
+<h1>新規温湿度登録</h1>
+<form method="Post">
+    <label for="temp">温度</label>
+    <input type="text" name="temp">
+    <label for="hum">湿度</label>
+    <input type="text" name="hum">
+    <input type="submit" value="新規登録">
+</form>
+{% endblock %}

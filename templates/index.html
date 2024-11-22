@@ -1,0 +1,17 @@
+{% extends "base.html" %} <!--追記 -->
+{% block content %} <!--追記 -->
+<h1>温度・湿度記録アプリケーション</h1>
+<!-- ボタン作成 -->
+<p><a href="/create" role="button">新規温度・湿度記録画面</a> </p>
+<p><a href="/update" role="button">温度・湿度記録編集画面</a> </p>
+<p><a href="/delete" role="button">温度・湿度記録削除画面</a> </p>
+{% for tp_hu in tp_hus %}
+<article>
+    <P>登録ID： {{ tp_hu.id }}</P>
+    <p>作成日時： {{ tp_hu.created_at }}</p>
+    <p>温度：{{ tp_hu.temp }}</p>
+    <p>湿度：{{ tp_hu.hum }}</p>
+</article>
+<hr>
+{% endfor %}
+{% endblock %}
